@@ -142,8 +142,8 @@ export default function App() {
       <main id="top">
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Batch audio, minus the busywork</p>
-            <h1>Hear more.<br /><em>Wait less.</em></h1>
+            <p className="eyebrow"><span /> Browser based audio batcher</p>
+            <h1>Batch audio processing.<br /><em>Runs fully in your browser!</em></h1>
             <p className="hero-intro">Speed up folders of recordings while keeping voices natural. Your files stay on your computer, processed privately with WebAssembly.</p>
             <div className="hero-actions">
               <button className="button primary large" onClick={chooseFolder} disabled={!compatible || scanning || processing}>
